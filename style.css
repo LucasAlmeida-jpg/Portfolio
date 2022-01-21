@@ -14,7 +14,6 @@ html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   background: black;
-  
 }
 
 .container {
@@ -462,20 +461,20 @@ p {
 }
 
 #services .tab-border1:hover {
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(226, 96, 9));
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(226, 96, 9));
   color: white;
 }
 
 #services .tab-border2:hover {
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(60, 106, 204));
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(60, 106, 204));
 }
 
 #services .tab-border3:hover {
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(253, 236, 0));
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(253, 236, 0));
 }
 
 #services .tab-border4:hover {
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(46, 197, 243));
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(46, 197, 243));
 }
 
 #services .service-item::after {
