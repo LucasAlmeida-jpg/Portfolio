@@ -31,7 +31,7 @@ img {
 }
 
 p {
-  color: rgb(80, 74, 74);
+  
   text-align: left;
   font-size: 1.4rem;
   line-height: 4rem;
@@ -408,6 +408,7 @@ p {
   line-height: 2.5rem;
   font-weight: 300px;
   letter-spacing: 0.05rem;
+  
 }
 #services .service-bottom {
   display: flex;
@@ -415,67 +416,62 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 75px;
+  
 }
 #services .service-item {
   flex-basis: 80%;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  text-align:center;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 150px 10px 0;
   border-radius: 10px;
-  background: whitesmoke;
+  background: black;
   background-size: cover;
   margin: 10px 5%;
-  color: rgb(245, 126, 126);
   position: relative;
   z-index: 1;
   overflow: hidden;
-}
+  
+ }
 
-#services img {
-  background: rgb(7, 7, 7);
+
+#services img{
+  background: black;
+  margin-left: 125px;
   border-radius: 50%;
 }
 
 #services .tab-border1 {
   border-bottom: rgb(226, 96, 9) 9px solid;
-  transition: 0.9s;
+  border-top: rgb(226, 96, 9) 9px solid;
+  border-left: rgb(226, 96, 9) 9px solid;
+  border-right: rgb(226, 96, 9) 9px solid;
   cursor: pointer;
 }
 
 #services .tab-border2 {
   border-bottom: rgb(60, 106, 204) 9px solid;
-  transition: 0.9s;
+  border-top: rgb(60, 106, 204) 9px solid;
+  border-right: rgb(60, 106, 204) 9px solid;
+  border-left: rgb(60, 106, 204) 9px solid;
   cursor: pointer;
 }
 #services .tab-border3 {
   border-bottom: rgb(253, 236, 0) 9px solid;
-  transition: 0.9s;
+  border-top: rgb(253, 236, 0) 9px solid;
+  border-left: rgb(253, 236, 0) 9px solid;
+  border-right: rgb(253, 236, 0) 9px solid;
   cursor: pointer;
 }
 #services .tab-border4 {
   border-bottom: rgb(46, 197, 243) 9px solid;
-  transition: 0.9s;
+  border-top: rgb(46, 197, 243) 9px solid;
+  border-right: rgb(46, 197, 243) 9px solid;
+  border-left: rgb(46, 197, 243) 9px solid;
   cursor: pointer;
 }
 
-#services .tab-border1:hover {
-  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(226, 96, 9));
-  color: white;
-}
 
-#services .tab-border2:hover {
-  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(60, 106, 204));
-}
-
-#services .tab-border3:hover {
-  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(253, 236, 0));
-}
-
-#services .tab-border4:hover {
-  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(46, 197, 243));
-}
 
 #services .service-item::after {
   content: '';
@@ -496,19 +492,28 @@ p {
 }
 
 #services .service-item h2 {
-  font-size: 3rem;
-  text-align: center;
-  color: rgb(45, 38, 58);
+  font-size: 1.9rem;
+  color: whitesmoke;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-#services .service-item p {
-  color: rgb(80, 74, 74);
-  text-align: left;
-  font-size: 1.4rem;
-  line-height: 1.9rem;
+#services .service-item .j{
+  margin-left: 100px
 }
+
+#services .service-item .h{
+  margin-left: 125px
+}
+
+#services .service-item .c{
+  margin-left: 135px
+}
+#services .service-item .r{
+  margin-left: 120px
+}
+
+
 /*END Services Section*/
 
 /*About me Section*/
