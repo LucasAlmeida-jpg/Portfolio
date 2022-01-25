@@ -451,19 +451,19 @@ p {
 }
 
 #services .tab-border1:hover{
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(0.5);
 }
 
 #services .tab-border2:hover{
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(0.5);
 }
 
 #services .tab-border3:hover{
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(0.5);
 }
 
 #services .tab-border4:hover{
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(0.5);
 }
 
 
