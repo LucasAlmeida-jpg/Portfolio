@@ -31,7 +31,6 @@ img {
 }
 
 p {
-  
   text-align: left;
   font-size: 1.4rem;
   line-height: 4rem;
@@ -408,7 +407,6 @@ p {
   line-height: 2.5rem;
   font-weight: 300px;
   letter-spacing: 0.05rem;
-  
 }
 #services .service-bottom {
   display: flex;
@@ -416,12 +414,11 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 75px;
-  
 }
 #services .service-item {
   flex-basis: 80%;
   display: flex;
-  text-align:center;
+  text-align: center;
   flex-direction: column;
   padding: 30px 150px 10px 0;
   border-radius: 10px;
@@ -431,11 +428,9 @@ p {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  
- }
+}
 
-
-#services img{
+#services img {
   background: black;
   margin-left: 125px;
   border-radius: 50%;
@@ -450,23 +445,21 @@ p {
   transition: all 1s;
 }
 
-#services .tab-border1:hover{
-  transform: rotate(360deg) scale(0.5);
+#services .tab-border1:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 
-#services .tab-border2:hover{
-  transform: rotate(360deg) scale(0.5);
+#services .tab-border2:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 
-#services .tab-border3:hover{
-  transform: rotate(360deg) scale(0.5);
+#services .tab-border3:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 
-#services .tab-border4:hover{
-  transform: rotate(360deg) scale(0.5);
+#services .tab-border4:hover {
+  transform: rotate(360deg) scale(1.2);
 }
-
-
 
 #services .tab-border2 {
   border-bottom: rgb(60, 106, 204) 9px solid;
@@ -493,8 +486,6 @@ p {
   transition: all 1s;
 }
 
-
-
 #services .service-item::after {
   content: '';
   position: absolute;
@@ -520,21 +511,20 @@ p {
   text-transform: uppercase;
 }
 
-#services .service-item .j{
-  margin-left: 100px
+#services .service-item .j {
+  margin-left: 100px;
 }
 
-#services .service-item .h{
-  margin-left: 125px
+#services .service-item .h {
+  margin-left: 125px;
 }
 
-#services .service-item .c{
-  margin-left: 135px
+#services .service-item .c {
+  margin-left: 135px;
 }
-#services .service-item .r{
-  margin-left: 120px
+#services .service-item .r {
+  margin-left: 120px;
 }
-
 
 /*END Services Section*/
 
