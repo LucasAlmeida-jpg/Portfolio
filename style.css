@@ -447,7 +447,26 @@ p {
   border-left: rgb(226, 96, 9) 9px solid;
   border-right: rgb(226, 96, 9) 9px solid;
   cursor: pointer;
+  transition: all 1s;
 }
+
+#services .tab-border1:hover{
+  transform: rotate(360deg) scale(1.2);
+}
+
+#services .tab-border2:hover{
+  transform: rotate(360deg) scale(1.2);
+}
+
+#services .tab-border3:hover{
+  transform: rotate(360deg) scale(1.2);
+}
+
+#services .tab-border4:hover{
+  transform: rotate(360deg) scale(1.2);
+}
+
+
 
 #services .tab-border2 {
   border-bottom: rgb(60, 106, 204) 9px solid;
@@ -455,6 +474,7 @@ p {
   border-right: rgb(60, 106, 204) 9px solid;
   border-left: rgb(60, 106, 204) 9px solid;
   cursor: pointer;
+  transition: all 1s;
 }
 #services .tab-border3 {
   border-bottom: rgb(253, 236, 0) 9px solid;
@@ -462,6 +482,7 @@ p {
   border-left: rgb(253, 236, 0) 9px solid;
   border-right: rgb(253, 236, 0) 9px solid;
   cursor: pointer;
+  transition: all 1s;
 }
 #services .tab-border4 {
   border-bottom: rgb(46, 197, 243) 9px solid;
@@ -469,6 +490,7 @@ p {
   border-right: rgb(46, 197, 243) 9px solid;
   border-left: rgb(46, 197, 243) 9px solid;
   cursor: pointer;
+  transition: all 1s;
 }
 
 
