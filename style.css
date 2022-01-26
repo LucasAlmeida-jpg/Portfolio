@@ -1004,7 +1004,7 @@ p {
 
 [data-anime] {
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
 }
 
 [data-anime = "left"] {
