@@ -46,6 +46,16 @@ p {
   letter-spacing: 0.2rem;
   text-align: center;
 }
+.section-title-projects {
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  margin-top: 95px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
 
 .cta {
   display: inline-block;
@@ -289,6 +299,91 @@ p {
 }
 /*end of hero section*/
 
+/*Projects scrool*/
+.conteiner img {
+  border-radius: 30px;
+}
+.conteiner {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 40px;
+}
+
+#prev {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 43%;
+  left: 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+}
+
+#next {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 43%;
+  right: 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+}
+
+#prev:hover,
+#next:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dots {
+  text-align: center;
+  margin: 2%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(109, 100, 100);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 3px 5px;
+  transition: 0.6s ease;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.fade {
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image {
+  display: none;
+}
+
+/*Projetos lucas*/
+
 /*Project Section*/
 #projects .projects {
   flex-direction: column;
@@ -325,7 +420,7 @@ p {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   color: white;
@@ -338,6 +433,7 @@ p {
 #projects .project-info h1 {
   font-size: 4rem;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 #projects .project-info h2 {
@@ -556,13 +652,14 @@ p {
 
 #about .col-rig p {
   margin-bottom: 20px;
-  color: rgb(192, 181, 181);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.7rem;
+  color: rgb(230, 219, 219);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
   margin-left: 2.1rem;
   text-align: justify;
   margin-right: 2.2rem;
 }
+
 #about .col-lef .about-img {
   height: 100%;
   width: 100%;
@@ -580,6 +677,7 @@ p {
   z-index: -1;
 }
 /*END About me Section*/
+
 /*Contact - Section*/
 #contact .contact {
   flex-direction: column;
@@ -731,6 +829,13 @@ p {
 }
 
 /* Media query for tablet*/
+@media (max-width: 768px) {
+  .conteiner {
+    width: 90%;
+    height: auto;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .cta {
     font-size: 2.5rem;
