@@ -1,18 +1,18 @@
-const debounce = function (func, wait, immediate) {
-  let timeout
-  return function (...args) {
-    const context = this
-    const later = function () {
-      timeout = null
-      if (!immediate) func.apply(context, args)
-    }
-    const callNow = immediate && !timeout
-    clearTimeout(timeout)
-    timeout = setTimeout(later, wait)
-    if (callNow) func.apply(context, args)
-  }
-}
 
+const myInput = document.querySelector('input'),
+	mySpan = document.querySelector('span');
+
+let counter = 0,
+	timer = null; // variavel para armazenar nosso timer
+
+myInput.addEventListener('input', function(){
+	// limpamos o timer
+  	clearTimeout(timer);
+	// armazenamos o timer novamente
+  	timer = setTimeout(function(){
+  		mySpan.innerText = ++counter;
+  	}, 500);
+})
 const hamburger = document.querySelector(
   '.header .nav-bar .nav-list .hamburger'
 )
