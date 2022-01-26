@@ -834,9 +834,8 @@ p {
     width: 90%;
     height: auto;
   }
-  #hero h1{
+  #hero h1 {
     font-size: 36px;
-    
   }
 
   #projects .section-title-projects {
@@ -849,7 +848,7 @@ p {
   #about .section-title {
     font-size: 25px;
   }
-  
+
   #contact .section-title {
     font-size: 25px;
   }
@@ -1001,20 +1000,19 @@ p {
   }
 }
 
-
 [data-anime] {
   opacity: 0;
-  transition: .2s;
+  transition: 0.3s;
 }
 
-[data-anime = "left"] {
+[data-anime='left'] {
   transform: translate3d(-50px, 0, 0);
 }
-[data-anime = "right"] {
+[data-anime='right'] {
   transform: translate3d(50px, 0, 0);
 }
 
-[data-anime = "top"] {
+[data-anime='top'] {
   transform: translate3d(0, -50px, 0);
 }
 
