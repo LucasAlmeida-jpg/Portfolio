@@ -750,7 +750,6 @@ p {
 
 .brand h1 span {
   color: crimson;
-  
 }
 
 .brand h1 {
@@ -759,8 +758,6 @@ p {
   font-size: 3rem;
 }
 
-
-
 #footer h2 {
   color: white;
   font-weight: 500;
@@ -768,7 +765,6 @@ p {
   letter-spacing: 0.1rem;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 #footer p {
   color: white;
@@ -1024,5 +1020,3 @@ p {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
-
-
